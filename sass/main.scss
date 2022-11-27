@@ -1,0 +1,62 @@
+@import './utils/vars';
+@import './base/fonts';
+@import './base/normalize';
+@import './base/body-styles';
+
+@import './utils/help-class';
+@import './components/1-header/header-section';
+@import './components/1-header/header-logo';
+@import './components/1-header/header-btn';
+@import './components/1-header/nav-list';
+@import './components/1-header/contact-list';
+@import './components/1-header/social-site-list';
+
+@import './components/2-hero/hero-section';
+@import './components/2-hero/hero-title';
+@import './components/2-hero/hero-btn';
+
+@import './components/3-advantage/advantage-section';
+@import './components/3-advantage/advantage-icon\ list';
+@import './components/3-advantage/advantage\ list';
+
+@import './components/4-what-we-do/what-we-do-section';
+@import './components/4-what-we-do/what-we-do-title';
+@import './components/4-what-we-do/what-we-do-list';
+
+@import './components/5-our-team/our-team-section';
+@import './components/5-our-team/our-team-title';
+@import './components/5-our-team/our-team-list';
+
+// @import './components/6-regular-castomers/regular-castomers-section';
+// @import './components/6-regular-castomers/regular-castomers-title';
+// @import './components/6-regular-castomers/regular-castomers-list';
+
+
+// @import './components/7-footer/footer-section';
+// @import './components/7-footer/footer-logo';
+// @import './components/7-footer/footer-adress';
+// @import './components/7-footer/footer-links-title';
+// @import './components/7-footer/footer-links-list';
+// @import './components/7-footer/footer-mailing-title';
+// @import './components/7-footer/footer-mailing-form';
+// @import './components/7-footer/footer-mailing-button';
+
+// @import './components/8-backdrop/backdrop';
+// @import './components/8-backdrop/modal';
+// @import './components/8-backdrop/hero-form';
+
+// @import './components/9-portfolio/portfolio-section';
+// @import './components/9-portfolio/btn-list';
+// @import './components/9-portfolio/portfolio-title';
+// @import './components/9-portfolio/portfolio-list';
+
+@media  screen and (max-width: 767px) {
+    
+}
+
+@media  screen and (min-width: 768px) {
+  
+  }
+@media  screen and (min-width: 1200px) {
+  
+  }

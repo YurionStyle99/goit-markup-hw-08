@@ -1,0 +1,50 @@
+html{
+  box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body{
+    font-family:'Roboto',sans-serif;
+    color: var(--primary-color);
+    background-color: var(--background-primary-color);
+    letter-spacing: 0.03em;
+    margin: 0;
+  }
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display:block;
+  margin: 0%;
+  max-width: 100%;
+  height: auto;
+}
+
+address{
+  font-style: normal;
+}
+
+
+ul{
+  list-style: none;
+}
+
+p{
+  margin: 0;
+}

@@ -1,0 +1,54 @@
+.advantage__icon-list{
+
+
+  @media  screen and (max-width: 767px) {
+    margin-top: 60px;
+  }
+  
+  @media  screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    }
+  @media  screen and (min-width: 1200px) {
+    display: inline-flex;
+
+    }
+}
+
+.advantage__icon-item{
+ text-align: center;
+
+
+  @media  screen and (max-width: 767px) {
+    text-align: center;
+    // padding: 25px 190px;
+  }
+  
+  @media  screen and (min-width: 768px) {
+   flex-basis: 324px;
+   margin: 30px;
+   gap: 30px;
+    }
+  @media  screen and (min-width: 1200px) {
+    
+    width: 270px;
+    &:not(:first-child){
+      margin-left: 30px;
+    }
+}
+}
+
+.advantage__icon-wrap{
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding:25px 0;
+  @media  screen and (min-width: 768px) {
+   width: 324px;
+  }
+  @media  screen and (min-width: 1200px) {
+    width: 270px;
+    padding: 25px 102px;
+    margin-bottom: 30px;
+   }
+   
+}

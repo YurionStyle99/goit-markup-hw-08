@@ -1,0 +1,19 @@
+.footer__logo{
+  display: inline-block;
+  margin: 60px 0 20px 0;
+}
+
+.footer__logo_blue {
+  color: var(--secondary-color);
+}
+
+.footer__text{
+
+  color: var(--background-primary-color);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+}

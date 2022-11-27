@@ -1,0 +1,42 @@
+.page-header__button{
+display: flex;
+margin:0;
+right: 0;
+align-items: center;
+top: 0;
+padding: 0;
+background-color: transparent;
+border: none;
+cursor: pointer;
+min-width: 40px;
+min-height: 40px;
+
+@media  screen and (min-width: 768px) {
+ display: none; 
+}
+}
+.page-header__button-close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  margin: -45px 10px 0 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  min-width: 40px;
+  min-height: 40px;
+  overflow: hidden;
+  @media  screen and (min-width: 768px) {
+    display: none; 
+   }
+}
+.btn-nav_close{
+display: none;
+}
+
+.main-nav__container.is-open .btn-nav_close{
+display: block;
+}
+

@@ -1,0 +1,118 @@
+
+.contact-nav__list{
+  @media  screen and (max-width: 767px) {
+    margin-top: 65%;
+    margin-left: 40px;
+    }
+  
+   @media  screen and (min-width: 768px) {
+      margin-top: 21px;
+      }
+    @media  screen and (min-width: 1200px) {
+      display: flex;
+      margin-left: auto;
+      margin-top: 32px;
+      }
+}
+
+.contact-nav__item{
+  @media  screen and (max-width: 767px) {
+   
+    }
+  
+   @media  screen and (min-width: 768px) {
+      
+      }
+    @media  screen and (min-width: 1200px) {
+      display: inline-flex;
+      align-items: center;
+
+  &:not(:first-child){
+    margin-left: 50px;
+  }
+      }
+  }
+  
+
+
+.contact-nav__icon{
+  @media  screen and (max-width: 767px) {
+    display: none;
+    }
+  
+   @media  screen and (min-width: 768px) {
+    fill: currentColor;
+      }
+    @media  screen and (min-width: 1200px) {
+      fill: currentColor;
+      margin-right: 10px;
+      }
+  }
+  
+
+  
+.contact-nav__link{
+  @media  screen and (max-width: 767px) {
+    &:first-child{
+    font-weight: 500;
+font-size: 34px;
+line-height: calc(40/34);
+letter-spacing: 0.02em;
+color: var(--secondary-color);
+    }
+    &:last-child{
+      font-weight: 500;
+font-size: 24px;
+line-height: calc(28/24);
+letter-spacing: 0.02em;
+
+color: #757575;
+    }
+    }
+  
+   @media  screen and (min-width: 768px) {
+    font-weight: 500;
+    // font-size: 12px;
+    font-size: 12px;
+    line-height: calc(14/12);
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+      }
+    @media  screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+    
+      }
+
+transition: color 250ms var(--cubic) ;
+
+&:hover,
+&:focus{
+  fill: var(--secondary-color);
+}
+
+  }
+  .contact-nav__link.link-accent{
+    @media  screen and (max-width: 767px) {
+      font-weight: 500;
+      font-size: 34px;
+      line-height: calc(40/34);
+      letter-spacing: 0.02em;
+      color: var(--secondary-color);
+       }
+  }
+
+
+
+.contact-nav__link:hover,
+.contact-nav__link:focus{
+ color: var(--secondary-color);
+ fill: var(--secondary-color);
+}
+
+

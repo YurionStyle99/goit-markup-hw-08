@@ -1,0 +1,26 @@
+.mailing__wrap{
+margin: 72px 0 94px 93px;
+}
+.mailing__form{
+display: flex;
+align-items: center;
+}
+
+.mailing__input{
+width: 350px;
+height: 50px;
+  
+    margin-right: 8px;
+    padding: 15px 16px;
+    background-color: var(--background-second-color);
+    color: var(--background-primary-color);
+  
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+  &:focus{
+    outline: none;
+  }
+  }
+  
