@@ -820,6 +820,7 @@ p {
     display: block;
   }
 }
+
 @media screen and (max-width: 767px) {
   .main-nav__wrap_fix {
     position: relative;
@@ -1165,6 +1166,7 @@ p {
     border: none;
   }
 }
+
 @media screen and (max-width: 767px) {
   .social-site__link {
     font-weight: 500;
@@ -1174,6 +1176,7 @@ p {
     color: var(--secondary-color);
   }
 }
+
 .hero__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
