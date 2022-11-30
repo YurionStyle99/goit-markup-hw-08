@@ -12,3 +12,4 @@
     refs.modal.classList.toggle("hystmodal__opened");
   }
 })();
+

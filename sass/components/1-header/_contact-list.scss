@@ -100,7 +100,7 @@ transition: color 250ms var(--cubic) ;
   .contact-nav__link.link-accent{
     @media  screen and (max-width: 767px) {
       font-weight: 500;
-      font-size: 34px;
+      font-size: calc(18px + 16 * (100vw / 450));
       line-height: calc(40/34);
       letter-spacing: 0.02em;
       color: var(--secondary-color);

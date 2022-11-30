@@ -8,10 +8,11 @@
   @media  screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    padding: 60px 0;
     }
   @media  screen and (min-width: 1200px) {
     display: inline-flex;
-
+padding: 0;
     }
 }
 
@@ -25,12 +26,12 @@
   }
   
   @media  screen and (min-width: 768px) {
-   flex-basis: 324px;
-   margin: 30px;
+   width: calc((100% - 60px)/2);
+   margin: 15px;
    gap: 30px;
     }
   @media  screen and (min-width: 1200px) {
-    
+    margin: 0px;
     width: 270px;
     &:not(:first-child){
       margin-left: 30px;
@@ -43,7 +44,7 @@
   border-radius: 4px;
   padding:25px 0;
   @media  screen and (min-width: 768px) {
-   width: 324px;
+   width: 100%;
   }
   @media  screen and (min-width: 1200px) {
     width: 270px;

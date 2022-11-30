@@ -12,3 +12,4 @@
     refs.modal.classList.toggle("backdrop_is-hidden");
   }
 })();
+

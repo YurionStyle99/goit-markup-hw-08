@@ -1,8 +1,23 @@
 footer{
-  display: none;
   background-color: var(--background-second-color);
+  
 }
 
 .footer__wrap{
   display: flex;
+  
+@media  screen and (max-width: 767px) {
+   flex-direction: column; 
+   align-items: center;
+}
+
+@media  screen and (min-width: 768px) {
+  flex-wrap: wrap;
+  align-items: center;
+  }
+@media  screen and (min-width: 1200px) {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  }
 }
