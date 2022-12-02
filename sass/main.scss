@@ -45,7 +45,18 @@
 @import './components/8-backdrop/modal';
 @import './components/8-backdrop/hero-form';
 
-// @import './components/9-portfolio/portfolio-section';
-// @import './components/9-portfolio/btn-list';
-// @import './components/9-portfolio/portfolio-title';
-// @import './components/9-portfolio/portfolio-list';
+@import './components/9-portfolio/portfolio-section';
+@import './components/9-portfolio/btn-list';
+@import './components/9-portfolio/portfolio-title';
+@import './components/9-portfolio/portfolio-list';
+
+@media  screen and (max-width: 767px) {
+
+}
+
+@media  screen and (min-width: 768px) {
+
+  }
+@media  screen and (min-width: 1200px) {
+
+  }
